@@ -741,7 +741,7 @@
 
 .footer {
     /* max-width: 100%; */
-    margin: 0 auto;
+    /* margin: 0 auto; */
     background-color: #143741;
     font-family: "Myriad Pro";
     color: #fff;
@@ -825,7 +825,8 @@
 .footer_contact__address {
 }
 
-.contact__address__mar {
+.contact__address__map {
+    display: flex;
     width: 14px;
     height: 21px;
     background-image: url(./icons/placeholder.png);
@@ -835,6 +836,7 @@
     margin-left: 20px;
 }
 .contact__address__email {
+    display: flex;
     width: 18px;
     height: 21px;
     background-image: url(./icons/mail.png);
@@ -842,6 +844,7 @@
     background-repeat: no-repeat;
 }
 .contact__address__tel {
+    display: flex;
     width: 20px;
     height: 21px;
     background-image: url(./icons/telephone.png);
