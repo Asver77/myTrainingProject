@@ -5,8 +5,32 @@
 }
 
 @font-face{
-    font-family: 'Myriad Pro'; 
-    src: url(/Верстка/font/MV\ Boli/8143.otf);
+    font-family: "MV Boli"; 
+    src: url(./fonts/MVBoly/9077.ttf);
+}
+@font-face{
+    font-family: "Myriad Pro"; 
+    src: url(./fonts/MyriadPro/MyriadPro-Regular.ttf);
+}
+@font-face{
+    font-family: "Myriad Pro Condensed";
+    src: url(./fonts/MyriadPro/MyriadPro-Cond.ttf);
+}
+@font-face{
+    font-family: "Myriad ProIt";
+    src: url(./fonts/MyriadPro/MyriadPro-It.ttf);
+}
+@font-face{
+    font-family: "Open Sans";
+    src: url(./fonts/OpenSans/OpenSans-Regular.ttf);
+}
+@font-face{
+    font-family: "Roboto Condensed";
+    src: url(./fonts/Roboto/RobotoCondensed-Bold.ttf);
+}
+@font-face{
+    font-family: "Roboto Condensed";
+    src: url(./fonts/Roboto/RobotoCondensed-Regular.ttf);
 }
 :root{
     --san-serif: 'Roboto Condensed', sans-serif;
@@ -104,7 +128,7 @@
     height: 43px;
     border: 2px solid #709dca;
     border-radius: 50%;
-    background-image: url(/Верстка/icons/arrow\ left.png);
+    background-image: url(./icons/arrowLeft.png);
     background-repeat: no-repeat;
     background-position: 15px center;
     margin-left: 55px;
@@ -135,7 +159,7 @@
     border: 2px solid #709dca;
     border-radius: 50%;
     background-position: 15px center;
-    background-image: url(/Верстка/icons/arrow\ right.png);
+    background-image: url(./icons/arrowRight.png);
     background-repeat: no-repeat;
     margin-right: 55px;
     cursor: pointer;
@@ -352,7 +376,6 @@
     
 }
 
-
 /* Страница о нас */
 
 .about {
@@ -364,7 +387,6 @@
     display: flex;
     flex-direction: row;
     
-
 }
 
 .about-content__foto {
@@ -372,15 +394,12 @@
     overflow: hidden;
     width: 115%;
     
-
 }
 .about-content__img{
     position: absolute;
     left: 10%;
     transform: translate(-27%, 0%);
     
-
-
 }
 .about-content__desc {
     display: flex;
@@ -718,4 +737,135 @@
     letter-spacing: 0.18px;
     cursor: pointer;
     
+}
+
+.footer {
+    /* max-width: 100%; */
+    margin: 0 auto;
+    background-color: #143741;
+    font-family: "Myriad Pro";
+    color: #fff;
+
+
+}
+.footer_inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    padding-top: 74px;
+
+
+}
+.footer_content {
+    display: flex;
+    flex: 10%;
+    flex-direction: column;
+    justify-self: center;
+    
+    padding-left: 11%;
+    padding-right: 10%;
+    border: 1px solid #000;
+    
+}
+.footer_content__logo {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 3%;
+    
+    
+}
+.content_logo__img {
+    width: 37px;
+    height: 37px;
+    margin-right: 10px;
+    background-image: url(./icons/spasskaya-tower.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.content_logo__link {
+    color: #fff;
+    font-family: 'MV Boli';
+    list-style: none;
+    color: #ffdb47;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 11.75px;
+    text-decoration: none;
+}
+.footer_content__text {
+    color: #c3c3c3;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    
+}
+.footer_contact {
+    /* width: calc((100%)/3); */
+    color: #ffffff;
+    font-family: "Myriad Pro";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    flex: 5%;
+
+    border: 1px solid #000;
+    
+    
+}
+.footer_contact__title, 
+.footer_news__title {
+    color: #ffffff;
+    font-family: "Myriad Pro";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.55px;
+}
+.footer_contact__address {
+}
+
+.contact__address__mar {
+    width: 14px;
+    height: 21px;
+    background-image: url(./icons/placeholder.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-left: 20px;
+}
+.contact__address__email {
+    width: 18px;
+    height: 21px;
+    background-image: url(./icons/mail.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.contact__address__tel {
+    width: 20px;
+    height: 21px;
+    background-image: url(./icons/telephone.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.footer_news {
+    /* width: calc((100%)/3); */
+    flex: 10%;
+    border: 1px solid #000;
+}
+.footer_news__title {
+}
+.footer_news__text {
+    color: #c4c4c4;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.footer_news__data {
+    color: #71b6d5;
+    font-family: "Myriad Pro";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
 }
