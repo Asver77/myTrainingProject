@@ -28,16 +28,16 @@
                 <a class="menu__link" href="#">Главная</a>
               </li>
               <li class="menu__item">
-                <a class="menu__link" href="#">Наши услуги</a>
+                <a class="menu__link" href="#services">Наши услуги</a>
               </li>
               <li class="menu__item">
-                <a class="menu__link" href="#">О компании</a>
+                <a class="menu__link" href="#about">О компании</a>
               </li>
               <li class="menu__item">
-                <a class="menu__link" href="#">Отзывы</a>
+                <a class="menu__link" href="#reviews">Отзывы</a>
               </li>
               <li class="menu__item">
-                <a class="menu__link" href="#">Контакты</a>
+                <a class="menu__link" href="#footer">Контакты</a>
               </li>
             </ul>
           </nav>
@@ -63,7 +63,7 @@
           <div class="bullet-nav__right"></div>
         </div>
       </section>
-      <section class="services">
+      <section class="services" id="services">
         <div class="services__inner">
           <h2 class="services__title">
             Что мы предлагаем?
@@ -136,7 +136,7 @@
           </div>
         </div>
       </section>
-      <section class="about">
+      <section class="about" id="about">
         <div class="about-content">
           <div class="about-content__foto">
             <img
@@ -198,7 +198,7 @@
           </div>
         </div>
       </section>
-      <section class="reviews">
+      <section class="reviews" id="reviews">
         <div class="reviews__inner">
           <div class="reviews__header">
             <h2 class="reviews__title">
@@ -216,7 +216,7 @@
                 с детства искушенная на интересные события - была сильно
                 увлечена.
               </p>
-              <p class="reviews__first__name">Екатерина Васильева</p>
+              <p class="reviews__first__name"><img src="" alt="">Екатерина Васильева</p>
             </div>
             <div class="reviews__second">
               <p class="reviews__second__text">
@@ -227,7 +227,7 @@
                 ловко «управлял» подачей автобуса, не давая нам замёрзнуть.)
                 Огромное спасибо!
               </p>
-              <p class="reviews__second__name">Анна Крушевская</p>
+              <p class="reviews__second__name"><img src="" alt="">Анна Крушевская</p>
             </div>
           </div>
           <ul class="reviews__bullet">
@@ -291,7 +291,7 @@
           </div>
         </div>
       </section>
-      <footer class="footer">
+      <footer class="footer" id="footer">
         <div class="footer_inner">
           <div class="footer_content">
             <div class="footer_content__logo">
@@ -311,9 +311,12 @@
           <div class="footer_contact">
             <h3 class="footer_contact__title">Контакты</h3>
             <div class="footer_contact__address">
-                <p class="contact__address__map">Москва, Большая Спасская 12</p>
-                <p class="contact__address__email">moscow@imoscow.ru</p>
-                <p clacc="contact__address__tel">8 (495) 626-46-00</p>
+              <p class="address__map"><img src="./icons/placeholder.png" alt="#">
+                 Москва, Большая Спасская 12</p>
+                <p class="address__email"><img src="./icons/mail.png" alt="#">
+                moscow@imoscow.ru</p>
+                <p class="address__tel"><img src="./icons/telephone.png" alt="#">
+                8 (495) 626-46-00</p> 
             </div>
           </div>
           <div class="footer_news">
@@ -322,6 +325,24 @@
                 <p class="footer_news__data">5 марта 2018</p>
                 <p class="footer_news__text">Curabitur felis nibh, lacinia non rhoncus vel, lobortis et lorem. Class aptent taciti sociosqu ad litora torquent</p>
                 <p class="footer_news__data">12 декабря 2017</p>
+          </div>
+        </div>
+        <div class="footer_bottom">
+          <div class="footer_bottom__inner">
+            <p>&copy2018 Copyright. Все права защищены</p>
+            <p>Designed by Nordic IT School</p>
+            <div class="footer__soc">
+                    <a href="https://vk.com" target="blank">
+                        <div class="footer_icons footer_icons__vk"></div>
+                    </a>
+                    <a href="https://facebook.com" target="blank">
+                        <div class="footer_icons footer_icons__face"></div>
+                    </a>
+                    <a href="https://instagram.com" target="blank">
+                        <div class="footer_icons footer_icons__inst"></div>
+                    </a>
+            </div>
+
           </div>
         </div>
       </footer>
